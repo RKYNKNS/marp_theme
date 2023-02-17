@@ -1,7 +1,8 @@
 /* @a4 */
 
-@import 'default';
+@import 'gaia';
 
+/*
 section
 {
   width: 210mm;
@@ -9,3 +10,4 @@ section
   justify-content: start;
   padding: 50px;
 }
+*/
