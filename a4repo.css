@@ -8,6 +8,7 @@ section
   height: 297mm;
   justify-content: start;
   font-size: 15px;
+  border: 1px solid black; /* 外周の罫線 */
 }
 
 header,
