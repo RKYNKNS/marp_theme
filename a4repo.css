@@ -10,7 +10,9 @@ section
   font-size: 15px;
   margin: 0px;
   padding: 0px;
-  border: 1px solid black; /* 外周の罫線 */
+  box-sizing: border-box; /* ボックスサイズを境界ボックスに設定 */
+  outline: 0.5cm solid white; /* 外枠の余白 */
+
 }
 
 header,
