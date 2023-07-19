@@ -7,9 +7,9 @@ section
   width: 210mm;
   height: 297mm;
   justify-content: start;
-  font-size: 20px;
-  margin: 20px;
-  padding: 20px;
+  font-size: 11px;
+  margin: 30px;
+  padding: 30px;
   /*width: 100%;*/
   broder: 5px solid black;
   box-sizing: border-box; /* ボックスサイズを境界ボックスに設定 */
