@@ -10,6 +10,9 @@ section
   font-size: 20px;
   margin: 5px;
   padding: 5px;
+  width: 100%;
+  broder: 1px solid black;
+  box-sizing: border-box; /* ボックスサイズを境界ボックスに設定 */
 }
 
 body{
