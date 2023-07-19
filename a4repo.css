@@ -8,11 +8,6 @@ section
   height: 297mm;
   justify-content: start;
   font-size: 11px;
-  margin: 50px;
-  padding: 50px;
-  width: 100%;
-  broder: 5px solid black;
-  box-sizing: border-box; /* ボックスサイズを境界ボックスに設定 */
 }
 
 header,
