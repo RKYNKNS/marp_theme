@@ -22,15 +22,15 @@ body{
 header,
 footer {
   position: absolute;
-  left: 50px;
-  right: 50px;
+  left: 20px;
+  right: 20px;
   height: 20px;
 }
 
 header {
-  top: 30px;
+  top: 15px;
 }
 
 footer {
-  bottom: 30px;
+  bottom: 15px;
 }
