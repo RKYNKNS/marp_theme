@@ -15,25 +15,18 @@ section
   box-sizing: border-box; /* ボックスサイズを境界ボックスに設定 */
 }
 
-body{
-  width: 100%;
-  broder: 1px solid black;
-  box-sizing: border-box; /* ボックスサイズを境界ボックスに設定 */
-  /*outline: 1px solid white; /* 外枠の余白 */
-}
-
 header,
 footer {
   position: absolute;
-  left: 20px;
-  right: 20px;
-  height: 20px;
+  left: 10px;
+  right: 10px;
+  height: 10px;
 }
 
 header {
-  top: 15px;
+  top: 10px;
 }
 
 footer {
-  bottom: 15px;
+  bottom: 10px;
 }
