@@ -9,6 +9,7 @@ section
   justify-content: start;
   font-size: 11px;
   padding: 40px;
+  border: 1px solid black;
 }
 
 header,
