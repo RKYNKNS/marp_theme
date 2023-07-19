@@ -16,7 +16,7 @@ body{
   width: 100%;
   broder: 1px solid black;
   box-sizing: border-box; /* ボックスサイズを境界ボックスに設定 */
-  outline: 1cm solid white; /* 外枠の余白 */
+  /*outline: 1px solid white; /* 外枠の余白 */
 }
 
 header,
