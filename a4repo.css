@@ -8,6 +8,8 @@ section
   height: 297mm;
   justify-content: start;
   font-size: 15px;
+  margin: 0px;
+  padding: 0px;
   border: 1px solid black; /* 外周の罫線 */
 }
 
