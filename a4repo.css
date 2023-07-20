@@ -23,6 +23,17 @@ section.a
   border: 1px solid black;
 }
 
+section.b
+{
+  width: 210mm;
+  height: 297mm;
+  justify-content: start;
+  font-size: 30px;
+  padding: 40px;
+  box-sizing:border-box;
+  border: 1px solid black;
+}
+
 h1,
 h2,
 h3,
