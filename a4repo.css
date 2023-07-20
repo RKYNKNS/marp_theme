@@ -9,6 +9,16 @@ section
   justify-content: start;
   font-size: 11px;
   padding: 40px;
+  border: 1px solid black;
+}
+
+section.a
+{
+  width: 210mm;
+  height: 297mm;
+  justify-content: start;
+  font-size: 11px;
+  padding: 40px;
   box-sizing:border-box;
   border: 1px solid black;
 }
