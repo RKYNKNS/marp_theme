@@ -22,7 +22,7 @@ section.a
 section.b
 {
   justify-content: start;
-  font-size: 30px;
+  font-size: 11px;
   padding: 40px;
   display: grid;
   grid-template:
