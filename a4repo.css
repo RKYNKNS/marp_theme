@@ -33,7 +33,10 @@ section.b
   border: 1px solid black;
 }
 
-code, code * { font-family: "Meiryo UI", monospace !important; }
+code, code * { 
+  font-family: "Meiryo UI", monospace !important;
+  padding: 0px;
+}
 
 h1,
 h2,
