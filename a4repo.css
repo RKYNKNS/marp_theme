@@ -33,7 +33,9 @@ section.b
   border: 1px solid black;
 }
 
-code, code * { monospace !important; }
+code, code * {
+  monospace !important;
+}
 
 h1,
 h2,
