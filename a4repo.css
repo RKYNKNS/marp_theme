@@ -18,6 +18,7 @@ section.a
   height: 297mm;
   justify-content: start;
   font-size: 11px;
+  margin: 40px;
   padding: 0px;
   border: 1px solid black;
 }
