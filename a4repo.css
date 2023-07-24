@@ -8,16 +8,16 @@ section
   height: 297mm;
   justify-content: start;
   font-size: 11px;
-  margin: 40px;
   padding: 40px;
-  border: 1px solid red;
 }
 
 section.a
 {
   justify-content: start;
   font-size: 11px;
+  margin: 40px;
   padding: 40px;
+  border: 1px solid red;
 }
 
 section.b
