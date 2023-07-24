@@ -6,6 +6,10 @@
   
 }
 
+::backdrop {
+  background-color: white;
+}
+
 section
 {
   justify-content: start;
