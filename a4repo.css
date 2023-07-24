@@ -19,8 +19,8 @@ section
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0rem;
   grid-template: 
-    "title date" 20mm
-    "title author" 20mm
+    "title date" 5mm
+    "title author" 5mm
     "background background" 1fr
     "issue issue" 1fr
     "result result" 1fr
