@@ -2,9 +2,8 @@
 
 @import 'default';
 
-:root{
-  
-}
+/* @theme a4repo */
+/* @size A4 210mm 297mm */
 
 ::backdrop {
   background-color: white;
