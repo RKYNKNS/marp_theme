@@ -26,7 +26,7 @@ section
     "schedule";
 }
 
-.title t
+.title
 {
   grid-area: title;
   border: 0.2pt solid dimgray;
