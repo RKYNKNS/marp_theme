@@ -48,7 +48,7 @@ section
 }
 .detail
 {
-  grid-area: schedule;
+  grid-area: detail;
   border: 0.2pt solid dimgray;
 }
 .schedule
