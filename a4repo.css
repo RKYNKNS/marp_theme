@@ -18,12 +18,12 @@ section
   display: grid;
   gap: 0rem;
   grid-template: 
-    "title" 40px
-    "background" 40px
-    "issue" 40px
-    "result" 50px
-    "detail" auto
-    "schedule" 40px;
+    "title"
+    "background"
+    "issue"
+    "result"
+    "detail"
+    "schedule";
 }
 
 .title
