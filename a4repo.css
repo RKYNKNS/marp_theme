@@ -1,9 +1,9 @@
 /* @theme a4repo */
 
-/* @import 'default'; */
+@import 'default';
 
 :root{
-  --background-theme: white;
+  
 }
 
 section
