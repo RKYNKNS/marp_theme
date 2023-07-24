@@ -26,9 +26,34 @@ section
     "schedule";
 }
 
-.title
+.title t
 {
   grid-area: title;
+  border: 0.2pt solid dimgray;
+}
+.background b
+{
+  grid-area: background;
+  border: 0.2pt solid dimgray;
+}
+.issue i
+{
+  grid-area: issue;
+  border: 0.2pt solid dimgray;
+}
+.result r
+{
+  grid-area: result;
+  border: 0.2pt solid dimgray;
+}
+.detail d
+{
+  grid-area: schedule;
+  border: 0.2pt solid dimgray;
+}
+.schedule s
+{
+  grid-area: schedule;
   border: 0.2pt solid dimgray;
 }
 
