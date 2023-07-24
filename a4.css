@@ -9,3 +9,20 @@ section
   justify-content: start;
   font-size: 11px;
 }
+
+header,
+footer {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  height: 10px;
+  font-size: 11px;
+}
+
+header {
+  top: 10px;
+}
+
+footer {
+  bottom: 10px;
+}
