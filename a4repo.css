@@ -18,17 +18,28 @@ section
   display: grid;
   gap: 0rem;
   grid-template: 
-    "title"
-    "background"
-    "issue"
-    "result"
-    "detail"
-    "schedule";
+    "title date" auto 50mm
+    "title author" auto 50mm
+    "background background"
+    "issue issue"
+    "result result"
+    "detail detail"
+    "schedule schedule";
 }
 
 .title
 {
   grid-area: title;
+  border: 0.2pt solid dimgray;
+}
+.date
+{
+  grid-area: date;
+  border: 0.2pt solid dimgray;
+}
+.author
+{
+  grid-area: author;
   border: 0.2pt solid dimgray;
 }
 .background
