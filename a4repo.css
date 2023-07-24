@@ -10,10 +10,10 @@ section
   width: 210mm;
   height: 297mm;
   background-color: white;
-  padding-top:20px;
-  padding-bottom:20px;
-  padding-left:20px;
-  padding-right:20px;
+  padding-top:40px;
+  padding-bottom:30px;
+  padding-left:30px;
+  padding-right:40px;
 }
 
 section.grid
