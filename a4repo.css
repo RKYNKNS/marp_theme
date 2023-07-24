@@ -17,14 +17,18 @@ section
 
   display: grid;
   gap: 0rem;
-  border: 0.2pt solid dimgray;
+  grid-template: 
+    "title" 40px
+    "background" 40px
+    "issue" 40px
+    "result" 50px
+    "detail" auto
+    "schedule" 40px;
 }
 
-section.rows
+.title
 {
-  display: grid;
-  grid-template-rows: auto;
-  gap: 0rem;
+  grid-area: title;
   border: 0.2pt solid dimgray;
 }
 
