@@ -31,27 +31,27 @@ section
   grid-area: title;
   border: 0.2pt solid dimgray;
 }
-.background b
+.background
 {
   grid-area: background;
   border: 0.2pt solid dimgray;
 }
-.issue i
+.issue
 {
   grid-area: issue;
   border: 0.2pt solid dimgray;
 }
-.result r
+.result
 {
   grid-area: result;
   border: 0.2pt solid dimgray;
 }
-.detail d
+.detail
 {
   grid-area: schedule;
   border: 0.2pt solid dimgray;
 }
-.schedule s
+.schedule
 {
   grid-area: schedule;
   border: 0.2pt solid dimgray;
