@@ -1,7 +1,7 @@
 /* @theme a4repo */
-
-/* @theme a4repo */
 /* @size A4 210mm 297mm */
+
+@import 'default';
 
 ::backdrop {
   background-color: white;
