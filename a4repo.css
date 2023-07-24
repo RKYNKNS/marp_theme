@@ -18,12 +18,18 @@ section
 
 section.grid
 {
-    display: grid;
-    grid-template-columns: repeat(minmax(0, 1fr));
-    grid-template-rows: auto;
-    gap: 0rem;
-    border: 0.2pt solid dimgray;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 0rem;
+  border: 0.2pt solid dimgray;
+  grid-template-areas:
+    "title"
+    "contents";
 }
+
+section.grid.h1 {grid-area: title;}
+section.grid.h2 {grid-area: contents;}
 
 h1,
 h2,
