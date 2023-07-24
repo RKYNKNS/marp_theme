@@ -3,10 +3,6 @@
 
 @import 'default';
 
-::backdrop {
-  background-color: white;
-}
-
 section
 {
   justify-content: start;
@@ -16,6 +12,13 @@ section
   padding-bottom:1px;
   padding-left:10px;
   padding-right:1px;
+}
+
+section.grid{
+    display: grid;
+    grid-template-columns: repeat(minmax(0, 1fr));
+    gap: 0rem;
+    border: 0.2pt solid dimgray;
 }
 
 section.hd
