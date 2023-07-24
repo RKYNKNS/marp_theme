@@ -15,30 +15,69 @@ section
   padding: 40px;
 }
 
-section.a
+section.ttl
 {
   justify-content: start;
-  font-size: 11px;
+  width: 210mm;
+  height: 20mm;
+  font-size: 15px;
   margin: 40px;
   padding: 40px;
-  border: 1px solid red;
 }
 
-section.b
+section.bg
 {
   justify-content: start;
   font-size: 11px;
+  width: 210mm;
+  height: 30mm;
+  margin: 40px;
   padding: 40px;
-  display: grid;
-  grid-template:
-    "header" auto
-    "contents" 1fr
-    "footer" auto / 1fr;
+  border: 1px solid black;
 }
 
-code, code * { 
-  font-family: "Meiryo UI", monospace !important;
-  padding: 0px;
+section.is
+{
+  justify-content: start;
+  font-size: 11px;
+  width: 210mm;
+  height: 30mm;
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+section.rslt
+{
+  justify-content: start;
+  font-size: 11px;
+  width: 210mm;
+  height: 30mm;
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+section.dtl
+{
+  justify-content: start;
+  font-size: 11px;
+  width: 210mm;
+  height: 170mm;
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+section.sch
+{
+  justify-content: start;
+  font-size: 11px;
+  width: 210mm;
+  height: 17mm;
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid black;
 }
 
 h1,
