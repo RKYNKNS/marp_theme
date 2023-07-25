@@ -1,0 +1,96 @@
+/* @theme a4repo */
+/* @size A4 210mm 297mm */
+
+@import 'default';
+
+section
+{
+  justify-content: start;
+  font-size: 11px;
+  width: 210mm;
+  height: 297mm;
+  background-color: white;
+  padding-top:40px;
+  padding-bottom:30px;
+  padding-left:30px;
+  padding-right:40px;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0rem;
+  grid-template: 
+    "title date" 5mm
+    "title author" 5mm
+    "background background" auto
+    "issue issue" auto
+    "result result" auto
+    "detail detail" auto
+    "schedule schedule" auto / 1fr 50mm;
+}
+
+.title
+{
+  grid-area: title;
+  border: 0.2pt solid dimgray;
+}
+.date
+{
+  grid-area: date;
+  border: 0.2pt solid dimgray;
+}
+.author
+{
+  grid-area: author;
+  border: 0.2pt solid dimgray;
+}
+.background
+{
+  grid-area: background;
+  border: 0.2pt solid dimgray;
+}
+.issue
+{
+  grid-area: issue;
+  border: 0.2pt solid dimgray;
+}
+.result
+{
+  grid-area: result;
+  border: 0.2pt solid dimgray;
+}
+.detail
+{
+  grid-area: detail;
+  border: 0.2pt solid dimgray;
+}
+.schedule
+{
+  grid-area: schedule;
+  border: 0.2pt solid dimgray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5em 0 0 0;
+}
+
+header,
+footer {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  height: 10px;
+  font-size: 11px;
+}
+
+header {
+  top: 10px;
+}
+
+footer {
+  bottom: 10px;
+}
