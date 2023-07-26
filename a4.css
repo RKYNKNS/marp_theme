@@ -16,6 +16,16 @@ section
   padding-right:40px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top:4px;
+	padding-bottom:4px;
+}
+
 header,
 footer {
   position: absolute;
