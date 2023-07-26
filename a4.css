@@ -15,11 +15,9 @@ section　{
   	padding-right:40px;
 }
 
-p{
-	margin-block: 0px 0px;
-}
-
-li{
+p,
+li,
+ul {
 	margin-block: 0px 0px;
 }
 
