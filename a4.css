@@ -17,7 +17,8 @@ section　{
 
 p,
 li,
-ul {
+ul,
+ol {
 	margin-block: 0px 0px;
 }
 
