@@ -13,6 +13,11 @@ section　{
  	padding-bottom:30px;
   	padding-left:30px;
   	padding-right:40px;
+	margin-block: 0px 0px;
+}
+
+p {
+	margin-block: 0px 0px;
 }
 
 h1,
@@ -23,6 +28,7 @@ h5,
 h6 {
 	padding-top: 0px;
 	padding-bottom: 0px;
+	margin-block: 0px 0px;
 }
 
 header,
