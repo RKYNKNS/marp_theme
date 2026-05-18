@@ -4,7 +4,7 @@
 @import 'default';
 
 section　{
-	justify-content: flex-start;
+	justify-content: flex-start !important;
   	font-size: 11px;
   	width: 210mm;
   	height: 297mm;
