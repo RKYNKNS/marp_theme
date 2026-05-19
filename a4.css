@@ -4,6 +4,8 @@
 @import 'default';
 
 section　{
+	display: flex !important;
+	flex-direction: column !important;
 	justify-content: flex-start !important;
   	font-size: 11px;
   	width: 210mm;
